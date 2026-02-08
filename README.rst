@@ -2,9 +2,8 @@
 *docxcompose* is a Python library for concatenating/appending Microsoft
 Word (.docx) files.
 
-This fork adds the PR 112, Fixed DeprecationWarning on pkg_import, by
-@numshub
-and modernizes the build system for Python >= 3.8.
+This fork migrates pkg_import to importlib to support newer setuptools (@numshub)
+and moves the build system to pyproject.toml (@emmanuelito)
 
 
 Example usage
