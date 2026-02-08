@@ -1,6 +1,6 @@
 [project]
 name = "docxcompose3"
-version = "1.4.4"
+version = "1.4.5"
 description = "Compose .docx documents (fork to work with newer setuptools)"
 requires-python = ">=3.8"
 license = { text = "MIT License" }
