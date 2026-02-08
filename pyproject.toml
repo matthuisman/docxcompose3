@@ -1,7 +1,7 @@
 [project]
 name = "docxcompose3"
-version = "1.4.2"         # PEP 440-valid
-description = "Compose .docx documents"
+version = "1.4.4"
+description = "Compose .docx documents (fork to work with newer setuptools)"
 requires-python = ">=3.8"
 license = { text = "MIT License" }
 dynamic = ["readme"]
@@ -34,7 +34,7 @@ dependencies = [
   "lxml",
   "python-docx>=0.8.8",
   "six",
-  "Babel",                         # (same as 'babel'; keep if upstream uses it)
+  "Babel",
 ]
 
 [project.optional-dependencies]
@@ -51,6 +51,5 @@ Repository = "https://github.com/matthuisman/docxcompose3"
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
-# declare readme dynamically via setuptools
 [tool.setuptools.dynamic]
 readme = { file = ["README.rst", "HISTORY.txt"], content-type = "text/x-rst" }
