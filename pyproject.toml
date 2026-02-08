@@ -1,13 +1,10 @@
-[build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "docxcompose3"
-version = "1.4.3"         # PEP 440-valid
+version = "1.4.2"         # PEP 440-valid
 description = "Compose .docx documents"
 requires-python = ">=3.8"
 license = { text = "MIT License" }
+dynamic = ["readme"]
 
 authors = [
   { name = "Thomas Buchberger", email = "t.buchberger@4teamwork.ch" },
@@ -49,6 +46,10 @@ docxcompose = "docxcompose.command:main"
 [project.urls]
 Homepage = "https://github.com/matthuisman/docxcompose3"
 Repository = "https://github.com/matthuisman/docxcompose3"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
 
 # declare readme dynamically via setuptools
 [tool.setuptools.dynamic]
