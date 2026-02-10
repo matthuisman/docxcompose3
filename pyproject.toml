@@ -1,6 +1,6 @@
 [project]
 name = "docxcompose3"
-version = "1.4.5"
+version = "1.5.0"
 description = "Compose .docx documents (fork to work with newer setuptools)"
 requires-python = ">=3.8"
 license = { text = "MIT License" }
@@ -41,7 +41,7 @@ dependencies = [
 test = ["pytest"]
 
 [project.scripts]
-docxcompose = "docxcompose.command:main"
+docxcompose = "docxcompose3.command:main"
 
 [project.urls]
 Homepage = "https://github.com/matthuisman/docxcompose3"

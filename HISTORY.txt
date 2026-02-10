@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.5.0 (2025-02-11)
+------------------
+
+- Rename module to docxcompose3. Imports will need to be swapped from docxcompose to docxcompose3
+
 1.4.5 (2025-02-09)
 ------------------
 

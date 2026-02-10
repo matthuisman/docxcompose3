@@ -1,5 +1,5 @@
 from docx import Document
-from docxcompose.composer import Composer
+from docxcompose3.composer import Composer
 from utils import ComposedDocument
 from utils import docx_path
 from utils import FixtureDocument

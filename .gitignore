@@ -9,6 +9,7 @@ lib/
 pip-selfcheck.json
 .pytest_cache/
 .tox
+.vscode/
 
 /.cache/
 /dist/

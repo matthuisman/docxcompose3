@@ -1,5 +1,5 @@
 
-*docxcompose* is a Python library for concatenating/appending Microsoft
+*docxcompose3* is a Python library for concatenating/appending Microsoft
 Word (.docx) files.
 
 This fork migrates pkg_import to importlib to support newer setuptools (@numshub)
@@ -13,7 +13,7 @@ Append a document to another document:
 
 .. code::
 
-    from docxcompose.composer import Composer
+    from docxcompose3.composer import Composer
     from docx import Document
     master = Document("master.docx")
     composer = Composer(master)

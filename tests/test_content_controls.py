@@ -1,5 +1,5 @@
 from docx import Document
-from docxcompose.sdt import StructuredDocumentTags
+from docxcompose3.sdt import StructuredDocumentTags
 from utils import ComparableDocument
 from utils import docx_path
 from utils import FixtureDocument

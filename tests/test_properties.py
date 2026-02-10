@@ -2,13 +2,13 @@ from datetime import datetime
 from docx import Document
 from docx.opc.constants import RELATIONSHIP_TYPE as RT
 from docx.oxml import parse_xml
-from docxcompose.properties import ComplexField
-from docxcompose.properties import CUSTOM_PROPERTY_TYPES
-from docxcompose.properties import CustomProperties
-from docxcompose.properties import SimpleField
-from docxcompose.properties import value2vt
-from docxcompose.properties import vt2value
-from docxcompose.utils import xpath
+from docxcompose3.properties import ComplexField
+from docxcompose3.properties import CUSTOM_PROPERTY_TYPES
+from docxcompose3.properties import CustomProperties
+from docxcompose3.properties import SimpleField
+from docxcompose3.properties import value2vt
+from docxcompose3.properties import vt2value
+from docxcompose3.utils import xpath
 from lxml.etree import tostring
 from utils import assert_complex_field_value
 from utils import assert_simple_field_value
