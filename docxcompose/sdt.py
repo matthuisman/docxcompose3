@@ -1,4 +1,4 @@
-from .utils import xpath
+from docxcompose.utils import xpath
 from lxml.etree import Element
 from lxml.etree import QName
 

@@ -1,7 +1,7 @@
 from babel.dates import format_datetime
 from datetime import datetime
-from docxcompose3.properties import FieldBase
-from docxcompose3.utils import word_to_python_date_format
+from docxcompose.properties import FieldBase
+from docxcompose.utils import word_to_python_date_format
 
 
 class FieldForTesting(FieldBase):

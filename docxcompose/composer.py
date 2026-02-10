@@ -8,10 +8,10 @@ from docx.opc.part import Part
 from docx.oxml import parse_xml
 from docx.oxml.section import CT_SectPr
 from docx.parts.numbering import NumberingPart
-from .image import ImageWrapper
-from .properties import CustomProperties
-from .utils import NS
-from .utils import xpath
+from docxcompose.image import ImageWrapper
+from docxcompose.properties import CustomProperties
+from docxcompose.utils import NS
+from docxcompose.utils import xpath
 import os.path
 import random
 import re

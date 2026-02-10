@@ -1,4 +1,4 @@
-from docxcompose3 import command
+from docxcompose import command
 from utils import docx_path
 import pytest
 

@@ -1,8 +1,8 @@
 from docx import Document
-from docxcompose3.composer import Composer
+from docxcompose.composer import Composer
 from operator import attrgetter
 import os.path
-from docxcompose3.utils import xpath
+from docxcompose.utils import xpath
 
 
 XPATH_CACHED_DOCPROPERTY_VALUES = 'w:r[preceding-sibling::w:r/w:fldChar/@w:fldCharType="separate"]/w:t'

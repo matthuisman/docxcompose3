@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 from docx import Document
-from .composer import Composer
+from docxcompose.composer import Composer
 import os.path
 import sys
 
